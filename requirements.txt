@@ -1,6 +1,8 @@
-alembic==1.13.1
-fastapi==0.111.0
-greenlet==3.0.3
-PyMySQL==1.1.0
-psycopg2-binary==2.9.6
-SQLAlchemy==2.0.29
+fastap
+fastapi==0.95.0
+sqlalchemy==2.0.18
+fastapi-jwt-auth==1.17.0
+passlib==1.7.4
+pydantic==1.10.7
+python-dotenv==1.0.0
+uvicorn==0.23.1
