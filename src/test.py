@@ -3,7 +3,7 @@ from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from schema import Base, get_db
-from app import app
+from main import app
 
 # Configure the test database
 TEST_DATABASE_URL = "postgresql://postgres:123456@localhost:5432/mydb"  # Using SQLite for testing
